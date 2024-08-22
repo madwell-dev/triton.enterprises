@@ -1,0 +1,52 @@
+.triton-marquee {
+  padding: 64px 0;
+
+  .container {
+    padding-block: 42px;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  svg {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .img-wrapper {
+    position: absolute;
+    top: 0px;
+    right: 20%;
+    width: 260px;
+    height: 330px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .content {
+    max-width: var(--viewport-width);
+    margin: 0 auto;
+    padding-inline: var(--side-padding);
+    width: 100%;
+
+    p {
+      color: var(--default-font-color);
+      font-family: "metallophile-sp8";
+      font-size: 44px;
+      line-height: 1.4;
+      text-transform: uppercase;
+      max-width: 624px;
+      margin-left: 0;
+    }
+  }
+}

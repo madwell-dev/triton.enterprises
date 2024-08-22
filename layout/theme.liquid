@@ -35,6 +35,119 @@
     <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
 
+    <style type="text/css">
+      @font-face {
+        font-family: 'obviously';
+        src: url('https://use.typekit.net/af/b9278b/00000000000000007735c9ec/30/l?subset_id=2&fvd=n5&v=3') format('woff2'),
+            url('https://use.typekit.net/af/b9278b/00000000000000007735c9ec/30/d?subset_id=2&fvd=n5&v=3') format('woff'),
+            url('https://use.typekit.net/af/b9278b/00000000000000007735c9ec/30/a?subset_id=2&fvd=n5&v=3') format('opentype');
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'obviously';
+        src: url('https://use.typekit.net/af/4e95da/00000000000000007735ca07/30/l?subset_id=2&fvd=n7&v=3') format('woff2'),
+            url('https://use.typekit.net/af/4e95da/00000000000000007735ca07/30/d?subset_id=2&fvd=n7&v=3') format('woff'),
+            url('https://use.typekit.net/af/4e95da/00000000000000007735ca07/30/a?subset_id=2&fvd=n7&v=3') format('opentype');
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'obviously';
+        src: url('https://use.typekit.net/af/2d83b4/00000000000000007735c9f2/30/l?subset_id=2&fvd=i5&v=3') format('woff2'),
+            url('https://use.typekit.net/af/2d83b4/00000000000000007735c9f2/30/d?subset_id=2&fvd=i5&v=3') format('woff'),
+            url('https://use.typekit.net/af/2d83b4/00000000000000007735c9f2/30/a?subset_id=2&fvd=i5&v=3') format('opentype');
+        font-weight: 500;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'obviously';
+        src: url('https://use.typekit.net/af/ab941d/00000000000000007735ca02/30/l?subset_id=2&fvd=i7&v=3') format('woff2'),
+            url('https://use.typekit.net/af/ab941d/00000000000000007735ca02/30/d?subset_id=2&fvd=i7&v=3') format('woff'),
+            url('https://use.typekit.net/af/ab941d/00000000000000007735ca02/30/a?subset_id=2&fvd=i7&v=3') format('opentype');
+        font-weight: 700;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'metallophile-sp8';
+        src: url('https://use.typekit.net/af/ec5ed6/0000000000000000775296d5/30/l?subset_id=2&fvd=n5&v=3') format('woff2'),
+            url('https://use.typekit.net/af/ec5ed6/0000000000000000775296d5/30/d?subset_id=2&fvd=n5&v=3') format('woff'),
+            url('https://use.typekit.net/af/ec5ed6/0000000000000000775296d5/30/a?subset_id=2&fvd=n5&v=3') format('opentype');
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'metallophile-sp8';
+        src: url('https://use.typekit.net/af/fb83d3/0000000000000000775296d3/30/l?subset_id=2&fvd=i5&v=3') format('woff2'),
+            url('https://use.typekit.net/af/fb83d3/0000000000000000775296d3/30/d?subset_id=2&fvd=i5&v=3') format('woff'),
+            url('https://use.typekit.net/af/fb83d3/0000000000000000775296d3/30/a?subset_id=2&fvd=i5&v=3') format('opentype');
+        font-weight: 500;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'neue-haas-grotesk-display';
+        src: url('https://use.typekit.net/af/1ba16c/00000000000000007735bb5a/30/l?subset_id=2&fvd=n5&v=3') format('woff2'),
+            url('https://use.typekit.net/af/1ba16c/00000000000000007735bb5a/30/d?subset_id=2&fvd=n5&v=3') format('woff'),
+            url('https://use.typekit.net/af/1ba16c/00000000000000007735bb5a/30/a?subset_id=2&fvd=n5&v=3') format('opentype');
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'neue-haas-grotesk-display';
+        src: url('https://use.typekit.net/af/384d9b/00000000000000007735bb6a/30/l?subset_id=2&fvd=n7&v=3') format('woff2'),
+            url('https://use.typekit.net/af/384d9b/00000000000000007735bb6a/30/d?subset_id=2&fvd=n7&v=3') format('woff'),
+            url('https://use.typekit.net/af/384d9b/00000000000000007735bb6a/30/a?subset_id=2&fvd=n7&v=3') format('opentype');
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'neue-haas-grotesk-display';
+        src: url('https://use.typekit.net/af/6c4da4/00000000000000007735bb5e/30/l?subset_id=2&fvd=i5&v=3') format('woff2'),
+            url('https://use.typekit.net/af/6c4da4/00000000000000007735bb5e/30/d?subset_id=2&fvd=i5&v=3') format('woff'),
+            url('https://use.typekit.net/af/6c4da4/00000000000000007735bb5e/30/a?subset_id=2&fvd=i5&v=3') format('opentype');
+        font-weight: 500;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+
+      @font-face {
+        font-family: 'neue-haas-grotesk-display';
+        src: url('https://use.typekit.net/af/fcc1c9/00000000000000007735bb6c/30/l?subset_id=2&fvd=i7&v=3') format('woff2'),
+            url('https://use.typekit.net/af/fcc1c9/00000000000000007735bb6c/30/d?subset_id=2&fvd=i7&v=3') format('woff'),
+            url('https://use.typekit.net/af/fcc1c9/00000000000000007735bb6c/30/a?subset_id=2&fvd=i7&v=3') format('opentype');
+        font-weight: 700;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+    </style>
+
+
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
