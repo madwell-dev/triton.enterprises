@@ -1,5 +1,6 @@
 .triton-marquee {
   padding: 64px 0;
+  overflow: hidden;
 
   .container {
     padding-block: 42px;
