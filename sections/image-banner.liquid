@@ -164,6 +164,14 @@
       {%- endfor -%}
     </div>
   </div>
+  {% if template contains 'index' %}
+    <div class="img-wrapper flying-butterflies-1">
+      <img src="{{ 'flying-butterflies.gif' | asset_url }}" alt="flying butterflies" width="274" height="480" />
+    </div>
+    <div class="img-wrapper flying-butterflies-2">
+      <img src="{{ 'flying-butterflies.gif' | asset_url }}" alt="flying butterflies" width="274" height="480" />
+    </div>
+  {% endif %}
 </div>
 
 {% schema %}
