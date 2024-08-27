@@ -49,9 +49,34 @@
         "show_text_below": false
       }
     },
+    "full_screen_video_6HngGR": {
+      "type": "full-screen-video",
+      "settings": {
+      }
+    },
+    "triton_marquee": {
+      "type": "triton-marquee",
+      "settings": {
+      }
+    },
+    "image_banner_2": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/triton-buterfly-truck.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -60,7 +85,7 @@
         "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -77,16 +102,13 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "full_screen_video_6HngGR": {
-      "type": "full-screen-video",
-      "settings": {
-      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
-    "full_screen_video_6HngGR"
+    "full_screen_video_6HngGR",
+    "triton_marquee",
+    "image_banner_2",
+    "featured_collection"
   ]
 }

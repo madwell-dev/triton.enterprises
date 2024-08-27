@@ -409,9 +409,17 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} 
+    {% if template contains 'index' %}homepage
+    {% elsif template contains 'product' %}product-{{ product.handle }}
+    {% elsif template contains 'collection' %}collection-{{ collection.handle }}
+    {% elsif template contains 'blog' %}blog-{{ blog.handle }}
+    {% elsif template contains 'article' %}article-{{ article.handle }}
+    {% elsif template contains 'page' %}page-{{ page.handle }}
+    {% else %}default-slug{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -485,5 +493,9 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
