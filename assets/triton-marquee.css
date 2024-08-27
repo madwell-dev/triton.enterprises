@@ -20,8 +20,11 @@
     align-items: center;
     position: relative;
 
+    @media screen and (max-width: 900px) {
+      height: 300px;
+    }
     @media screen and (max-width: 600px) {
-      height: 250px;
+      height: 200px;
     }
   }
 
@@ -29,7 +32,18 @@
     object-fit: contain;
     width: 100%;
     height: auto;
-    margin-top: 40px;
+    overflow: visible;
+
+    @media screen and (max-width: 900px) {
+      text {
+        font-size: 75px;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      text {
+        font-size: 100px;
+      }
+    }
   }
 
   .img-wrapper {
@@ -46,10 +60,13 @@
       object-fit: contain;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
       top: 30%;
       width: 130px;
       height: 165px;
+    }
+    @media (max-width: 600px) {
+      top: calc(30% - 24px);
     }
   }
 
