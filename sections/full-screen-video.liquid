@@ -4,6 +4,7 @@
     padding-top: 56.25%;
     position: relative;
     width: 100%;
+    overflow: hidden;
   }
 
   .full-width-video iframe {
@@ -41,6 +42,7 @@
     font-family: "metallophile-sp8";
     font-size: 54px;
     font-weight: 700;
+    line-height: 1;
   }
 
   #go-to-shop {
@@ -67,6 +69,37 @@
   #go-to-shop:active {
     background-color: rgba(237, 113, 23, 0.95);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width: 900px) {
+    .full-width-video {
+      padding-top: 80%;
+    }
+
+    .full-width-video iframe {
+      width: 150%;
+      height: 100%;
+      transform: translateX(-16.5%);
+    }
+  }
+  @media (max-width: 600px) {
+    .full-width-video {
+      padding-top: 120%;
+    }
+
+    .full-width-video iframe {
+      width: 250%;
+      transform: translateX(-30%);
+    }
+  }
+  @media (max-width: 360px) {
+    .full-width-video h1 {
+      font-size: 40px;
+    }
+    .full-width-video .hero-content {
+      margin-top: 32px;
+      row-gap: 16px;
+    }
   }
 </style>
 
