@@ -555,4 +555,21 @@
       }
     }
   }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+    padding-top: 20px;
+
+    .footer-item {
+      &:first-child,
+      &:last-child {
+        text-align: center;
+      }
+    }
+  }
+}
+
+#preview-bar-iframe {
+  display: none;
 }
