@@ -2,6 +2,11 @@
   .header {
     font-family: var(--metallophile);
 
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
     .header__icon--cart {
       align-items: center;
       display: flex;
