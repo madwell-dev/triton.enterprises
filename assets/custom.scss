@@ -1,0 +1,49 @@
+.header-wrapper {
+  &.header-wrapper--border-bottom {
+    border-bottom: 1px solid #fff;
+  }
+
+  .header {
+    font-family: var(--metallophile);
+    padding: 10px 0px;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .header__icon--cart {
+      align-items: center;
+      display: flex;
+      gap: 0.5rem;
+      text-transform: uppercase;
+      width: auto;
+      height: auto;
+
+      .cart-count-bubble {
+        position: relative;
+        bottom: unset;
+        left: unset;
+      }
+    }
+
+    @media screen and (min-width: 990px) {
+      .header__inline-menu {
+        grid-area: left-icons;
+        justify-self: flex-start;
+        text-transform: uppercase;
+        margin-top: 0;
+      }
+
+      .header__search {
+        grid-area: icons;
+        justify-self: flex-end;
+      }
+    }
+  }
+}
