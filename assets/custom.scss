@@ -4,6 +4,10 @@
       .header__inline-menu {
         grid-area: left-icons;
       }
+
+      .header__search {
+        grid-area: icons;
+      }
     }
   }
 }
