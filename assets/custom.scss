@@ -1,5 +1,10 @@
 .header-wrapper {
   .header {
+    .header__icon--cart {
+      align-items: center;
+      display: flex;
+    }
+
     @media screen and (min-width: 990px) {
       .header__inline-menu {
         grid-area: left-icons;
