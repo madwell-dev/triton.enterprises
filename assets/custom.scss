@@ -3,6 +3,10 @@
     .header__icon--cart {
       align-items: center;
       display: flex;
+
+      .cart-count-bubble {
+        position: relative;
+      }
     }
 
     @media screen and (min-width: 990px) {
