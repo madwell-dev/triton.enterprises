@@ -1,8 +1,8 @@
 .header-wrapper {
-  &--border-bottom {
-    border-color: #fff;
+  &.header-wrapper--border-bottom {
+    border-bottom: 1px solid #fff;
   }
-  
+
   .header {
     font-family: var(--metallophile);
     padding: 10px 0px;
