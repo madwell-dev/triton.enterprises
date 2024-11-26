@@ -10,9 +10,22 @@
   /* Custom Variables */
   --side-padding: 5rem;
   --viewport-width: 1200px;
-
   --default-font-color: #1c1c1c;
+
+  /* madwell colors */
+  --black: #252325;
+  --red: #EB3F22;
+  --lightning: #28E3F9;
+  --blue: #094CF3;
+  --orchid: #E0D6EF;
+  --gold: #E1D09D;
+  --tan: #FBF7E8;
+  --ocean: #35A0C7;
+
+  /* madwell fonts */
   --metallophile: "metallophile-sp8";
+  --obviously: "obviously";
+  --neue: 'neue-haas-grotesk-display';
 }
 
 .product-card-wrapper .card,
