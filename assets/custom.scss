@@ -3,10 +3,12 @@
     @media screen and (min-width: 990px) {
       .header__inline-menu {
         grid-area: left-icons;
+        justify-self: flex-start;
       }
 
       .header__search {
         grid-area: icons;
+        justify-self: flex-end;
       }
     }
   }
