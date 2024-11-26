@@ -1,7 +1,9 @@
 .header-wrapper {
   .header {
     @media screen and (min-width: 990px) {
-      grid-template-rows: 1fr;
+      .header__inline-menu {
+        grid-area: left-icons;
+      }
     }
   }
 }
