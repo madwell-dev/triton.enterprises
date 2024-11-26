@@ -4,6 +4,7 @@
       .header__inline-menu {
         grid-area: left-icons;
         justify-self: flex-start;
+        text-transform: uppercase;
       }
 
       .header__search {
