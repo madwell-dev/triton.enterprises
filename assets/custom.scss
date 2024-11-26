@@ -1,9 +1,7 @@
-@import './custom-fonts';
-
 .header-wrapper {
   .header {
-    font-family: $metallophile;
-    
+    font-family: var(--metallophile);
+
     .header__icon--cart {
       align-items: center;
       display: flex;
