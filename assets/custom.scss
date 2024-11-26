@@ -1,6 +1,11 @@
 .header-wrapper {
+  &--border-bottom {
+    border-color: #fff;
+  }
+  
   .header {
     font-family: var(--metallophile);
+    padding: 10px 0px;
 
     a {
       text-decoration: none;
