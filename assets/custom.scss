@@ -3,9 +3,12 @@
     .header__icon--cart {
       align-items: center;
       display: flex;
+      gap: 0.25rem;
 
       .cart-count-bubble {
         position: relative;
+        bottom: unset;
+        left: unset;
       }
     }
 
