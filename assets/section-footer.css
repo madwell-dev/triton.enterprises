@@ -445,6 +445,7 @@
 }
 
 .footer-block__brand-info .footer__list-social.list-social {
+  justify-content: center;
   margin-left: -1.3rem;
   margin-right: -1.3rem;
 }
