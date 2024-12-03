@@ -35,7 +35,7 @@
   data-aos-duration="1000"
   data-aos-easing="ease-out-sine"
 >
-  <p><strong>Selfishly changing the world</strong> through waves, sounds, words, pictures, Fabrics, & Giving.</p>
+  <p><strong>{{ section.settings.slogan_text }}</p>
 </div>
 
 <script>
@@ -87,7 +87,13 @@
       "type": "inline_richtext",
       "id": "title",
       "default": "GOING INSANE GOING SANE 🦋 GOING INSANE GOING SANE 🌪️ ",
-      "label": "Heading"
+      "label": "Marquee Text"
+    },
+    {
+      "type": "text",
+      "id": "slogan_text",
+      "default": "Selfishly changing the world</strong> through waves, sounds, words, pictures, Fabrics, & Giving.",
+      "label": "Slogan"
     }
   ],
   "presets": [
