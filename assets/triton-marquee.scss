@@ -101,6 +101,11 @@
   padding-inline: var(--side-padding);
   width: 100%;
   background-color: #fff;
+  display: flex;
+
+  * {
+    flex: 1;
+  }
 
   p {
     color: var(--default-font-color);
