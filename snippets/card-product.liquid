@@ -545,10 +545,9 @@
           {% endif %}
         
         {% endif %}
-        {% comment %} {% if quick_add = 'plain' %}
+        {% if quick_add == 'plain' %}
           Plain!
-        {% endif %} {% endcomment %}
-        {{ quick_add | json }}
+        {% endif %}
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             <span
