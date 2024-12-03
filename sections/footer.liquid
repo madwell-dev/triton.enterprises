@@ -156,6 +156,13 @@
                 {%- endcase -%}
               </div>
             {%- endfor -%}
+
+            <div class="footer-block footer-block--email{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+              {% endif %}>
+              <img src="aloha.svg | asset_url" alt="Aloha icon" /> ALOHA (AT) TRITON.ENTERPRISES
+            </div>
           </div>
         {%- endif -%}
 
