@@ -308,7 +308,10 @@
                   aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                   data-product-url="{{ card_product.url }}"
                 >
-                  {{ 'products.product.choose_options' | t }}
+                  {% comment %} {{ 'products.product.choose_options' | t }} {% endcomment %}
+                  
+                  Add to cart +
+
                   {%- if horizontal_quick_add -%}
                     <span class="icon-wrap">{% render 'icon-arrow' %}</span>
                   {%- endif -%}
@@ -543,6 +546,7 @@
               </modal-dialog>
             </div>
           {% endif %}
+        
         {% endif %}
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
