@@ -505,14 +505,14 @@
   @media screen and (max-width: 749px) {
     .footer .grid {
       margin-left: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (min-width: 750px) {
     .footer__content-top .grid {
       margin-left: -3rem;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
     }
 
     .footer__content-top .grid__item {
