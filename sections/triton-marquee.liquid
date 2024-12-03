@@ -1,16 +1,20 @@
-{{ 'triton-marquee.css' | asset_url | stylesheet_tag }}
+{{ 'triton-marquee.scss' | asset_url | stylesheet_tag }}
+
+<div class="butterfly">
+  <img src="{{ 'triton-butterfly.webp' | asset_url }}" alt="Butterfly" width="1080" height="auto" id="butterfly" />
+</div>
 
 <div class="triton-marquee">
   <h2>
     <div class="container">
       <svg viewBox="0 0 3000 300" xmlns="http://www.w3.org/2000/svg">
         <path 
-          id="textPathCurve"
-          d="M0,165 Q75,145 300,165 T600,165 T900,165 T1200,165 T1500,165 T1800,165 T2100,165 T2400,165 T2700,165 T3000,165"
+          id="textPathStraight"
+          d="M0,165 L3000,165"
           fill="none"
         />
         <text>
-          <textPath href="#textPathCurve" startOffset="0%">
+          <textPath href="#textPathStraight" startOffset="0%">
             {% for i in (1..25) %}
               {{ section.settings.title }}{% if forloop.last == false %} {% endif %}
             {% endfor %}
@@ -18,19 +22,24 @@
           </textPath>
         </text>
       </svg>
-      <div class="img-wrapper">
+      {% comment %} <div class="img-wrapper">
         <img src="{{ 'triton-butterfly.png' | asset_url }}" alt="butterfly" width="1080" height="auto" />
-      </div>
+      </div> {% endcomment %}
     </div>
   </h2>
-  <div 
-    class="content" 
+</div>
+
+<div 
+  class="triton-content" 
+>
+  <img src="{{ 'triton-big-logo.svg' | asset_url }}" alt="Triton Large logo" />
+  
+  <p 
     data-aos="slide-left" 
     data-aos-duration="1000"
-    data-aos-easing="ease-out-sine"
-  >
-    <p><strong>Selfishly changing the world</strong> through waves, sounds, words, pictures, Fabrics, & Giving.</p>
-  </div>
+    data-aos-easing="ease-out-sine">
+    <strong>{{ section.settings.slogan_text }}</strong>
+  </p>
 </div>
 
 <script>
@@ -82,7 +91,13 @@
       "type": "inline_richtext",
       "id": "title",
       "default": "GOING INSANE GOING SANE 🦋 GOING INSANE GOING SANE 🌪️ ",
-      "label": "Heading"
+      "label": "Marquee Text"
+    },
+    {
+      "type": "text",
+      "id": "slogan_text",
+      "default": "Selfishly changing the world</strong> through waves, sounds, words, pictures, Fabrics, & Giving.",
+      "label": "Slogan"
     }
   ],
   "presets": [

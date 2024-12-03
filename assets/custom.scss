@@ -1,11 +1,11 @@
 .header-wrapper {
   &.header-wrapper--border-bottom {
-    border-bottom: 1px solid #fff;
+    border-bottom: 0.1em solid #fff;
   }
 
   .header {
     font-family: var(--metallophile);
-    padding: 10px 0px;
+    padding: 8px 0px;
 
     a {
       text-decoration: none;
@@ -29,6 +29,13 @@
         position: relative;
         bottom: unset;
         left: unset;
+      }
+    }
+
+    .header__heading-logo-wrapper {
+      img {
+        width: 56px;
+        height: 56px;
       }
     }
 
