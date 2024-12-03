@@ -68,6 +68,7 @@
     margin: 0 auto;
     padding-inline: var(--side-padding);
     width: 100%;
+    background-color: #fff;
 
     p {
       color: var(--default-font-color);
