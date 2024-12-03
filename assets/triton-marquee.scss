@@ -24,6 +24,17 @@
       background-color: #fff;
       height: 1px;
       width: 100%;
+      position: absolute;
+      top: 10px;
+    }
+
+    &:after {
+      content: "";
+      background-color: #fff;
+      height: 1px;
+      width: 100%;
+      position: absolute;
+      bottom: 10px;
     }
   }
 
