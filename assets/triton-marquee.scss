@@ -2,6 +2,11 @@
   overflow: hidden;
   background: var(--red);
 
+  #butterfly {
+    width: 260px;
+    height: 260px;
+  }
+
   @media (max-width: 600px) {
     padding-block: 0px 48px;
   }
