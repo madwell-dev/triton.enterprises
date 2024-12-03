@@ -1,6 +1,10 @@
 .footer {
   background-color: var(--black);
   /* border-top: 0.1rem solid rgba(var(--color-foreground), 0.08); */
+
+  * {
+    color: #fff;
+  }
 }
 
 .footer:not(.color-scheme-1) {
