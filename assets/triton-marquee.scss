@@ -1,10 +1,11 @@
 .triton-marquee {
-  overflow: hidden;
+  overflow-x: hidden;
   background: var(--red);
 
   #butterfly {
     width: 260px;
     height: 260px;
+    position: absolute;
   }
 
   @media (max-width: 600px) {
