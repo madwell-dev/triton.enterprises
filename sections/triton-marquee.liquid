@@ -31,12 +31,15 @@
 
 <div 
   class="triton-content" 
-  data-aos="slide-left" 
-  data-aos-duration="1000"
-  data-aos-easing="ease-out-sine"
 >
   <img src="{{ 'triton-big-logo.svg' | asset_url }}" alt="Triton Large logo" />
-  <p><strong>{{ section.settings.slogan_text }}</p>
+  
+  <p 
+    data-aos="slide-left" 
+    data-aos-duration="1000"
+    data-aos-easing="ease-out-sine">
+    <strong>{{ section.settings.slogan_text }}</strong>
+  </p>
 </div>
 
 <script>
