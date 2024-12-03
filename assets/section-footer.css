@@ -53,6 +53,11 @@
     row-gap: 6rem;
     margin-bottom: 0;
   }
+
+  .footer__blocks-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .footer__content-bottom {
@@ -505,8 +510,6 @@
   @media screen and (max-width: 749px) {
     .footer .grid {
       margin-left: 0;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
     }
   }
 
