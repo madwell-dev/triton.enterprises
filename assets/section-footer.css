@@ -510,10 +510,10 @@
 }
 
 /* Custom Footer styles */
-.footer__content-top,
+/* .footer__content-top,
 .footer__content-bottom {
   display: none;
-}
+} */
 
 .footer-inner {
   max-width: var(--viewport-width);
