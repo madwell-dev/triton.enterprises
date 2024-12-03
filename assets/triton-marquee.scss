@@ -93,31 +93,31 @@
       height: 165px;
     }
   }
+}
 
-  .content {
-    max-width: var(--viewport-width);
-    margin: 0 auto;
-    padding-inline: var(--side-padding);
-    width: 100%;
-    background-color: #fff;
+.triton-content {
+  max-width: var(--viewport-width);
+  margin: 0 auto;
+  padding-inline: var(--side-padding);
+  width: 100%;
+  background-color: #fff;
+
+  p {
+    color: var(--default-font-color);
+    font-family: "metallophile-sp8";
+    font-size: 44px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    max-width: 624px;
+    margin-left: 0;
+  }
+
+  @media (max-width: 600px) {
+    padding-inline: 30px;
 
     p {
-      color: var(--default-font-color);
-      font-family: "metallophile-sp8";
-      font-size: 44px;
-      line-height: 1.4;
-      text-transform: uppercase;
-      max-width: 624px;
-      margin-left: 0;
-    }
-
-    @media (max-width: 600px) {
-      padding-inline: 30px;
-
-      p {
-        max-width: 100%;
-        font-size: 32px;
-      }
+      max-width: 100%;
+      font-size: 32px;
     }
   }
 }
