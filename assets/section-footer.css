@@ -5,6 +5,10 @@
   * {
     color: #fff;
   }
+
+  a {
+    color: #fff;
+  }
 }
 
 .footer:not(.color-scheme-1) {
