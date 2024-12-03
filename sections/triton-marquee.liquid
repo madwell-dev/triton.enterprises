@@ -1,7 +1,7 @@
 {{ 'triton-marquee.scss' | asset_url | stylesheet_tag }}
 
 <div class="butterfly">
-  <img src="{{ 'triton-butterfly.webp' | asset_url }}" alt="Butterfly" width="1080" height="auto" id="butterfly" />
+  <img data-src="{{ 'triton-butterfly.webp' | asset_url }}" alt="Butterfly" width="1080" height="auto" id="butterfly" class="lazyload" />
 </div>
 
 <div class="triton-marquee">
