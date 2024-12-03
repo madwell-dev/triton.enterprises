@@ -1,6 +1,7 @@
 .butterfly {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 
   #butterfly {
     width: 260px;
@@ -12,6 +13,8 @@
 .triton-marquee {
   overflow: hidden;
   background: var(--red);
+  position: relative;
+  z-index: 1;
 
   @media (max-width: 600px) {
     padding-block: 0px 48px;
