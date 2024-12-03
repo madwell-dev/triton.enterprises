@@ -19,6 +19,12 @@
     align-items: center;
     position: relative;
     
+    &:before {
+      content: "";
+      background-color: #fff;
+      height: 1px;
+      width: 100%;
+    }
   }
 
   svg {
