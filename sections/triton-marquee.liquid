@@ -4,8 +4,13 @@
   <h2>
     <div class="container">
       <svg viewBox="0 0 3000 300" xmlns="http://www.w3.org/2000/svg">
+        <path 
+          id="textPathCurve"
+          d="M0,165 Q75,145 300,165 T600,165 T900,165 T1200,165 T1500,165 T1800,165 T2100,165 T2400,165 T2700,165 T3000,165"
+          fill="none"
+        />
         <text>
-          <textPath startOffset="0%">
+          <textPath href="#textPathCurve" startOffset="0%">
             {% for i in (1..25) %}
               {{ section.settings.title }}{% if forloop.last == false %} {% endif %}
             {% endfor %}
