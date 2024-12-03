@@ -58,7 +58,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    .grid__item {
+    .footer-block {
       display: flex;
       align-items: center;
       justify-content: center;
