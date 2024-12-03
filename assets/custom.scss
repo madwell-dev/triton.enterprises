@@ -32,6 +32,13 @@
       }
     }
 
+    .header__heading-logo-wrapper {
+      img {
+        width: 56px;
+        height: 56px;
+      }
+    }
+
     @media screen and (min-width: 990px) {
       .header__inline-menu {
         grid-area: left-icons;
