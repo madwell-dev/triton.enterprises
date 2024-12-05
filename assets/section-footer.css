@@ -22,7 +22,7 @@
   .big-title {
     span {
       font-family: var(--metallophile); 
-      font-size: min(29vw, 340px);
+      font-size: min(28vw, 340px);
       text-transform: uppercase;
     }
   }
