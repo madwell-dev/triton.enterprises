@@ -16,7 +16,7 @@ window.addEventListener('load', function() {
 
     setInterval(function() {
         var date = new Date();
-        date.setHours(date.getHours() + UTC2HST_OFFSET);
+        //date.setHours(date.getHours() + UTC2HST_OFFSET);
         var hours = date.getHours() + UTC2HST_OFFSET;
         var minutes = date.getMinutes();
         var seconds = date.getSeconds();
