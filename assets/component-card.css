@@ -476,6 +476,10 @@
 .card-information > * {
   line-height: calc(1 + 0.4 / var(--font-body-scale));
   color: rgb(var(--color-foreground));
+  font-size: 16.5px;
+  font-family: var(--obviously);
+  letter-spacing: -0.165px;
+  line-height: 120%;
 }
 
 .card-information > .price {
