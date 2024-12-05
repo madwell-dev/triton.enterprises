@@ -5,6 +5,7 @@ window.addEventListener('load', function() {
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
     var ampm = hours >= 12 ? 'PM' : 'AM';
+    var UTC2HST_OFFSET = 10,
 
     hours = hours % 12;
     hours = hours ? hours : 12;
@@ -15,6 +16,7 @@ window.addEventListener('load', function() {
 
     setInterval(function() {
         var date = new Date();
+        date.setHours(date.getHours() + UTC2HST_OFFSET);
         var hours = date.getHours();
         var minutes = date.getMinutes();
         var seconds = date.getSeconds();
