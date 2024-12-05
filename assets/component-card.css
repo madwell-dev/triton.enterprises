@@ -480,6 +480,7 @@
   font-family: var(--obviously);
   letter-spacing: -0.165px;
   line-height: 120%;
+  font-weight: 300;
 }
 
 .card-information > .price {
