@@ -65,6 +65,13 @@
       margin-right: 8px;
     }
   }
+
+  .list-social__item {
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
 }
 
 .footer:not(.color-scheme-1) {
