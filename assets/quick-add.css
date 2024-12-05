@@ -355,9 +355,23 @@ quick-add-modal .product-form__buttons {
 }
 
 .quick-add__submit {
-  padding: 0.8rem;
   min-width: 100%;
   box-sizing: border-box;
+  border: 0px;
+  text-align: left;
+  font-family: var(--obviously);
+  font-weight: 800;
+  letter-spacing: -0.165px;
+  text-transform: uppercase;
+  padding: 0;
+  justify-content: flex-start;
+  line-height: 1;
+  min-height: unset;
+
+  &:before,
+  &:after {
+    content: none;
+  }
 }
 
 quick-add-modal .product-media-container.constrain-height {
