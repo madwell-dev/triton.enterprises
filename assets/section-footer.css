@@ -75,12 +75,13 @@
   border-top: none;
 }
 
-.footer__content-top {
+.footer__copyright {
   padding-bottom: 5rem;
   display: block;
 
   small {
     font-size: 14px;
+    font-family: var(--obviously);
   }
 }
 
