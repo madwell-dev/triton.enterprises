@@ -16,9 +16,9 @@
   }
 
   .footer-clock {
-
+    font-family: var(--obviously);
   }
-  
+
   .big-title {
     span {
       font-size: 
