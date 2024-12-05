@@ -21,7 +21,7 @@
 
   .big-title {
     span {
-      font-size: 
+      font-family: var(--metallophile); 
     }
   }
 }
