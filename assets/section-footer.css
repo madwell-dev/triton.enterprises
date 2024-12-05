@@ -8,7 +8,7 @@
   }
 
   a {
-    color: #fff;
+    color: #fff!important;
     text-transform: uppercase;
 
     &.list-menu__item--active {
