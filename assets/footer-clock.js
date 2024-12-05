@@ -33,7 +33,7 @@ window.addEventListener('load', function() {
       minutes = minutes < 10 ? '0' + minutes : minutes;
       seconds = seconds < 10 ? '0' + seconds : seconds;
 
-      clock.textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm;
+      clock.textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm + ' HST';
   }
 
   // Initialize and update the clock every second
