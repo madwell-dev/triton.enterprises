@@ -115,11 +115,12 @@
   p {
     color: var(--default-font-color);
     font-family: "metallophile-sp8";
-    font-size: 44px;
+    font-size: 54px;
     line-height: 1.4;
     text-transform: uppercase;
     max-width: 624px;
     margin-left: 0;
+    letter-spacing: -1.08px;
   }
 
   @media (max-width: 600px) {
