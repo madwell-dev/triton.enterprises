@@ -78,6 +78,10 @@
 .footer__content-top {
   padding-bottom: 5rem;
   display: block;
+
+  small {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 749px) {
