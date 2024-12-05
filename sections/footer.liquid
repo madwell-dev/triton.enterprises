@@ -4,6 +4,7 @@
 {{ 'component-list-menu.css' | asset_url | stylesheet_tag }}
 {{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
 {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'footer-clock.js' | asset_url | javascript }}" type="module"></script>
 
 {%- style -%}
   .footer {
@@ -28,6 +29,14 @@
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div id="footer-clock"></div>
+
+    <div class="big-title">
+      <span>Triton</span>
+    </div>
+  </div>
+
   {%- liquid
     assign has_social_icons = true
     if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
@@ -156,6 +165,13 @@
                 {%- endcase -%}
               </div>
             {%- endfor -%}
+
+            <div class="footer-block footer-block--email{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+              {% endif %}>
+              <img src="{{ 'aloha.svg' | asset_url }}" alt="Aloha icon" /> ALOHA (AT) TRITON.ENTERPRISES
+            </div>
           </div>
         {%- endif -%}
 
@@ -294,9 +310,8 @@
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content"
-          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
+          >® {{ 'now' | date: '%Y' }} TRITON ENTREPRISES
         </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
@@ -314,7 +329,7 @@
     </div>
   </div>
 
-  <!-- Custom Footer -->
+  {% comment %} <!-- Custom Footer -->
   <div class="footer-inner" data-aos="fade-up">
     <div class="footer-item copyright">® TRITON ENTREPRISES</div>
     <div class="footer-item social">
@@ -326,7 +341,7 @@
     </div>
     <div class="footer-item aloha">ALOHA (AT) TRITON.ENTERPRISES</div>
   </div>
-  <!-- Custom Footer End -->
+  <!-- Custom Footer End --> {% endcomment %}
 </footer>
 
 {% schema %}
