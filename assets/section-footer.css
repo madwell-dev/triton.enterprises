@@ -40,6 +40,14 @@
         a {
           color: #fff;
           font-size: 22px;
+
+          &:hover {
+            color: #fff;
+          }
+
+          &.list-menu__item--active {
+            text-decoration: none;
+          }
         }
       }
     }
