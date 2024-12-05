@@ -17,6 +17,7 @@
 
   .footer-clock {
     font-family: var(--obviously);
+    text-align: center;
   }
 
   .big-title {
