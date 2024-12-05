@@ -57,6 +57,14 @@
       }
     }
   }
+
+  .footer-block--email {
+    font-size: 22px;
+
+    img {
+      margin-right: 8px;
+    }
+  }
 }
 
 .footer:not(.color-scheme-1) {
