@@ -360,6 +360,10 @@ quick-add-modal .product-form__buttons {
   box-sizing: border-box;
   border: 0px;
   text-align: left;
+  font-family: var(--obviously);
+  font-weight: 800;
+  letter-spacing: -0.165px;
+  text-transform: uppercase;
 }
 
 quick-add-modal .product-media-container.constrain-height {
