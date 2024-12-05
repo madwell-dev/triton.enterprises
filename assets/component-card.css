@@ -303,6 +303,10 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 28px;
+  letter-spacing: 0.28px;
+  font-family: var(--metallophile);
+  text-transform: uppercase;
 }
 
 .card__heading:last-child {
@@ -476,6 +480,11 @@
 
 .card-information > .price {
   color: rgb(var(--color-foreground));
+  font-size: 16.5px;
+  font-family: var(--obviously);
+  letter-spacing: -0.165px;
+  line-height: 120%;
+  font-weight: 300;
 }
 
 .card--horizontal .card-information > .price {

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
+  margin-top: -65px;
 
   #butterfly {
     width: 260px;
@@ -105,6 +106,7 @@
   align-items: center;
   padding: var(--component-padding) 0;
   gap: 100px;
+  overflow: hidden;
 
   * {
     flex: 1;
@@ -113,11 +115,12 @@
   p {
     color: var(--default-font-color);
     font-family: "metallophile-sp8";
-    font-size: 44px;
+    font-size: 54px;
     line-height: 1.4;
     text-transform: uppercase;
     max-width: 624px;
     margin-left: 0;
+    letter-spacing: -1.08px;
   }
 
   @media (max-width: 600px) {
