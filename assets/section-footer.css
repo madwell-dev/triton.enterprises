@@ -65,6 +65,10 @@
       margin-right: 8px;
     }
   }
+
+  .footer__copyright {
+    margin-top: 0;
+  }
 }
 
 .footer:not(.color-scheme-1) {
