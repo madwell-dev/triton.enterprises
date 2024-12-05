@@ -44,7 +44,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -72,7 +72,8 @@
     "triton_marquee": {
       "type": "triton-marquee",
       "settings": {
-        "title": "GOING INSANE GOING SANE GOING INSANE GOING SANE"
+        "title": "GOING INSANE GOING SANE GOING INSANE GOING SANE",
+        "slogan_text": "Selfishly changing the world through waves, sounds, words, pictures, Fabrics, & Giving."
       }
     },
     "image_banner_2": {
