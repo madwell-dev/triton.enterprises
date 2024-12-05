@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -18,22 +18,10 @@
             "heading": "Browse our latest products",
             "heading_size": "h0"
           }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "heading"
       ],
       "disabled": true,
       "settings": {
@@ -51,6 +39,10 @@
     },
     "full_screen_video_6HngGR": {
       "type": "full-screen-video",
+      "settings": {}
+    },
+    "featured_collection": {
+      "type": "featured-collection",
       "settings": {
       }
     },
@@ -81,37 +73,60 @@
       "type": "featured-collection",
       "disabled": false,
       "settings": {
-        "title": "Featured products",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
+      }
+    },
+    "triton_marquee": {
+      "type": "triton-marquee",
+      "settings": {
+        "title": "GOING INSANE GOING SANE GOING INSANE GOING SANE",
+        "slogan_text": "Selfishly changing the world through waves, sounds, words, pictures, Fabrics, & Giving."
+      }
+    },
+    "image_banner_2": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/triton-buterfly-truck.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     }
   },
   "order": [
     "image_banner",
     "full_screen_video_6HngGR",
+    "featured_collection",
     "triton_marquee",
-    "image_banner_2",
-    "featured_collection"
+    "image_banner_2"
   ]
 }
