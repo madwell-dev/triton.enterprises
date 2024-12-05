@@ -14,6 +14,16 @@
       color: #fff;
     }
   }
+
+  .footer-clock {
+
+  }
+  
+  .big-title {
+    span {
+      font-size: 
+    }
+  }
 }
 
 .footer:not(.color-scheme-1) {
