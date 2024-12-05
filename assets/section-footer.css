@@ -24,6 +24,7 @@
       font-family: var(--metallophile); 
       font-size: min(28vw, 340px);
       text-transform: uppercase;
+      line-height: 0.9;
     }
   }
 }
