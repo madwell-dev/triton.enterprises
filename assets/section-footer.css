@@ -25,7 +25,7 @@
   .big-title {
     span {
       font-family: var(--metallophile); 
-      font-size: min(28vw, 340px);
+      font-size: min(28vw, 429.508px);
       text-transform: uppercase;
       line-height: 0.9;
     }
