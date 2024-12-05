@@ -65,15 +65,6 @@
       margin-right: 8px;
     }
   }
-  
-  .footer-block__brand-info {
-    .list-social__item {
-      .icon {
-        width: 24px;
-        height: 24px;
-      }
-    }
-  }
 }
 
 .footer:not(.color-scheme-1) {
