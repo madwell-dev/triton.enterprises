@@ -303,6 +303,9 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 28px;
+  letter-spacing: 0.28px;
+  font-family: var(--metallophile);
 }
 
 .card__heading:last-child {
