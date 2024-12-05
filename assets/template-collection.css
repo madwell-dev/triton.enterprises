@@ -96,4 +96,5 @@
 
 .collection__view-all a:not(.link) {
   margin-top: 64px;
+  text-transform: uppercase;
 }
