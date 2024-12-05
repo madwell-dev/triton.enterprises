@@ -69,6 +69,7 @@
     small, * {
       font-size: 14px;
       font-family: var(--obviously);
+      font-weight: 300;
     }
   }
 }
