@@ -106,6 +106,7 @@
   align-items: center;
   padding: var(--component-padding) 0;
   gap: 100px;
+  overflow: hidden;
 
   * {
     flex: 1;
