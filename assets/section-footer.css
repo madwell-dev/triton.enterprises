@@ -68,21 +68,16 @@
 
   .footer__copyright {
     margin-top: 0;
+
+    small, * {
+      font-size: 14px;
+      font-family: var(--obviously);
+    }
   }
 }
 
 .footer:not(.color-scheme-1) {
   border-top: none;
-}
-
-.footer__copyright {
-  padding-bottom: 5rem;
-  display: block;
-
-  small, * {
-    font-size: 14px;
-    font-family: var(--obviously);
-  }
 }
 
 @media screen and (max-width: 749px) {
