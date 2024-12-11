@@ -17,10 +17,6 @@
   position: relative;
   z-index: 1;
 
-  @media (max-width: 600px) {
-    padding-block: 0px 48px;
-  }
-
   h2 {
     margin: 0;
   }
@@ -99,14 +95,22 @@
 .triton-content {
   max-width: var(--viewport-width);
   margin: 0 auto;
-  padding-inline: var(--side-padding);
   width: 100%;
   background-color: #fff;
   display: flex;
   align-items: center;
-  padding: var(--component-padding) 0;
+  padding: var(--component-padding) var(--side-padding);
   gap: 100px;
   overflow: hidden;
+
+  img {
+    max-width: 100%;
+  }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    gap: 0px;
+  }
 
   * {
     flex: 1;
@@ -121,13 +125,8 @@
     max-width: 624px;
     margin-left: 0;
     letter-spacing: -1.08px;
-  }
 
-  @media (max-width: 600px) {
-    padding-inline: 30px;
-
-    p {
-      max-width: 100%;
+    @media (max-width: 600px) {
       font-size: 32px;
     }
   }
