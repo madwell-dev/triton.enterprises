@@ -1,11 +1,16 @@
 <style>
   .full-width-video {
+    width: 100%;
+    background: #000;
+    position: relative;
+  }
+
+  .full-width-video .video-container {
     height: 0px;
     padding-top: 56.25%;
     position: relative;
-    width: 100%;
     overflow: hidden;
-    background: #000;
+    margin-bottom: -85px;
   }
 
   .full-width-video iframe {
@@ -72,6 +77,17 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   }
 
+  a.bolt {
+    position: sticky;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: 0px;
+    z-index: 2;
+    display: inline-flex;
+  }
+
   @media (max-width: 900px) {
     .full-width-video {
       padding-top: 80%;
@@ -105,15 +121,22 @@
 </style>
 
 <section class="full-width-video">
+  <div class="video-container">
+    <iframe 
+      src="https://player.vimeo.com/video/989018912?background=1&autoplay=1&loop=1&muted=1&byline=0&title=0" 
+      frameborder="0" 
+      allow="autoplay; fullscreen; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
   <div class="hero-content">
     <h1>VILLAINS FOR GOOD™</h1>
   </div>
-  <iframe 
-    src="https://player.vimeo.com/video/989018912?background=1&autoplay=1&loop=1&muted=1&byline=0&title=0" 
-    frameborder="0" 
-    allow="autoplay; fullscreen; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
+
+  <a class="bolt" href="#shopify-section-template--23114277224758__featured_collection">
+    {%- render 'icon-bolt' -%}
+  </a>
 </section>
 
 {% schema %}
