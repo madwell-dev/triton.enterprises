@@ -3,16 +3,26 @@
     border-bottom: 0.1em solid #fff;
   }
 
+  .header__icon .icon-hamburger {
+    width: unset;
+    height: unset;
+  }
+
+  .menu-drawer-container:not(.menu-opening) .header__icon {
+    width: 6.4rem;
+  }
+
   .header {
     font-family: var(--metallophile);
-    padding: 8px 0px;
+    padding: 8px 16px;
 
     a {
       text-decoration: none;
-      color: #fff;
+      //color: #fff;
       font-size: 16px;
 
       &:hover {
+        color: inherit;
         text-decoration: underline;
       }
     }
@@ -33,7 +43,7 @@
     }
 
     .header__heading-logo-wrapper {
-      img {
+      svg {
         width: 56px;
         height: 56px;
       }
