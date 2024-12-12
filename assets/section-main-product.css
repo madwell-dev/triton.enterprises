@@ -175,11 +175,6 @@ product-info {
   max-width: 44rem;
   min-width: fit-content;
   border: none;
-
-  label {
-    width: 54px;
-    height: 54px;
-  }
 }
 
 .product-form__input .form__label {
