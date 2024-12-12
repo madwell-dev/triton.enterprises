@@ -257,6 +257,8 @@ a.product__text {
   font-weight: 500;
   line-height: normal;
   letter-spacing: -1.08px;
+  text-transform: uppercase;
+  color: var(--ocean);
 }
 
 .product__title > * {
