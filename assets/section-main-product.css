@@ -251,7 +251,12 @@ a.product__text {
 
 .product__title {
   word-break: break-word;
-  margin-bottom: 1.5rem;
+  font-family: var(--metallophile);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.08px;
 }
 
 .product__title > * {
