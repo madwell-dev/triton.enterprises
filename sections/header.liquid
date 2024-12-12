@@ -70,6 +70,7 @@
     }
   }
 
+  {% if template.name != "index" %} 
   .section-header:not(.scrolled-past-header) sticky-header {
     background: transparent;
   }
@@ -90,6 +91,7 @@
   .section-header:not(.scrolled-past-header) .header__heading-logo-wrapper .logopath {
     fill: #000;
   }
+  {%- endif -%}
 
   .section-header .header__icon {
     color: #342E35;
