@@ -71,9 +71,12 @@
   }
 
   {% if template.name == "index" %} 
+  .section-header sticky-header {
+    position: fixed;
+  }
+
   .section-header:not(.scrolled-past-header) sticky-header {
     background: transparent;
-    position: fixed;
   }
 
   .section-header:not(.scrolled-past-header) .header__icon {
