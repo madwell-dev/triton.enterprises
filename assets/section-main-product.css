@@ -190,6 +190,7 @@ product-info {
 
 .product-form__submit {
   margin-bottom: 1rem;
+  max-width: 325px;
 }
 
 .product-form__submit[aria-disabled='true'] + .shopify-payment-button .shopify-payment-button__button[disabled],
