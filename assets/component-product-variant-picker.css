@@ -67,7 +67,7 @@ variant-selects {
   align-items: center;
   justify-content: center;
   font-family: var(--metallophile);
-  margin: calc(16px - 0.2rem) 8.5px 0 0;
+  margin: calc(6px - 0.2rem) 8.5px 0 0;
   padding: 1rem 2rem;
   font-size: 22px;
   line-height: 1;
