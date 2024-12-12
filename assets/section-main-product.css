@@ -251,6 +251,10 @@ a.product__text {
 
 .product__title {
   word-break: break-word;
+}
+
+.product__title > * {
+  margin: 0;
   font-size: 54px;
   font-style: normal;
   font-weight: 500;
@@ -258,10 +262,6 @@ a.product__text {
   letter-spacing: -1.08px;
   text-transform: uppercase;
   color: var(--ocean);
-}
-
-.product__title > * {
-  margin: 0;
 }
 
 .product__title > a {
