@@ -62,6 +62,8 @@ variant-selects {
   background-color: rgb(var(--color-background));
   color: rgba(var(--color-foreground));
   border-radius: var(--variant-pills-radius);
+  align-items: center;
+  justify-content: center;
   color: rgb(var(--color-foreground));
   display: inline-flex;
   margin: 0.7rem 0.5rem 0.2rem 0;
