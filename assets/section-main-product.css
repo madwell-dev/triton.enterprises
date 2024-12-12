@@ -177,7 +177,8 @@ product-info {
   border: none;
 
   label {
-    border-radius: 0px;
+    width: 54px;
+    height: 54px;
   }
 }
 
