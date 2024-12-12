@@ -175,11 +175,14 @@ product-info {
   max-width: 44rem;
   min-width: fit-content;
   border: none;
+
+  label {
+    border-radius: 0px;
+  }
 }
 
 .product-form__input .form__label {
   padding-left: 0;
-  border-radius: 0px;
 }
 
 .product-form__input .select {
