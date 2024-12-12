@@ -251,7 +251,6 @@ a.product__text {
 
 .product__title {
   word-break: break-word;
-  font-family: var(--metallophile);
   font-size: 54px;
   font-style: normal;
   font-weight: 500;
