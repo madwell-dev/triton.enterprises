@@ -14,7 +14,6 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -46,6 +45,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_FJXmYr": {
+          "type": "text",
+          "settings": {
+            "text": "Description",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -64,6 +70,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_FJXmYr",
         "description",
         "share"
       ],
