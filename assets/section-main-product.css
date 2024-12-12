@@ -186,6 +186,7 @@ product-info {
   padding-left: 0;
   font-size: 16.5px;
   font-weight: 700;
+  color: var(--black);
 }
 
 .product-form__input .select {
