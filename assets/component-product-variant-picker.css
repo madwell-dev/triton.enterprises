@@ -63,16 +63,20 @@ variant-selects {
   color: rgba(var(--color-foreground));
   border-radius: var(--variant-pills-radius);
   color: rgb(var(--color-foreground));
-  display: inline-block;
-  margin: 0.7rem 0.5rem 0.2rem 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--metallophile);
+  margin: calc(6px - 0.2rem) 8.5px 0 0;
   padding: 1rem 2rem;
-  font-size: 1.4rem;
-  letter-spacing: 0.1rem;
+  font-size: 22px;
   line-height: 1;
   text-align: center;
   transition: border var(--duration-short) ease;
   cursor: pointer;
   position: relative;
+  width: 54px;
+  height: 54px;
 }
 
 .product-form__input--pill input[type='radio'] + label:before {

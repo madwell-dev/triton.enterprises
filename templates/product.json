@@ -45,6 +45,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_FJXmYr": {
+          "type": "text",
+          "settings": {
+            "text": "Description",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -52,9 +59,6 @@
         "share": {
           "type": "share",
           "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -64,13 +68,12 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "text_FJXmYr",
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail",
