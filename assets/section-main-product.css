@@ -237,6 +237,9 @@ p.product__text {
 
   p {
     color: var(--black);
+    font-size: 16.5px;
+    line-height: 19.8px;
+    letter-spacing: -1%;
   }
 }
 
