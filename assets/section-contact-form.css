@@ -29,6 +29,11 @@
     height: 231px;
     padding: 10px 8px;
   }
+  
+  .field__label {
+    color: rgba(37, 35, 37, 0.50);
+    left: 8px!important;
+  }
 
   /* .field__label {
     color: rgba(37, 35, 37, 0.50);
