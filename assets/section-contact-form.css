@@ -39,6 +39,7 @@
 
   .field__input:focus~.field__label {
     transform: translateY(-25%);
+    top: unset;
   }
 }
 
