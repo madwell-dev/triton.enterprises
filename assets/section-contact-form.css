@@ -15,6 +15,9 @@
 
   * {
     font-family: var(--metallophile);
+    font-size: 22px;
+    line-height: 25.32px;
+    letter-spacing: 3%;
   }
 }
 
