@@ -31,6 +31,10 @@
     transform: translateY(-50%);
     left: 8px;
   }
+
+  .field__input:focus~.field__label {
+    left: 8px;
+  }
 }
 
 @media screen and (min-width: 750px) {
