@@ -16,6 +16,10 @@
     font-family: var(--metallophile);
     padding: 8px 16px;
 
+    .list-menu {
+      gap: 16px;
+    }
+
     a {
       text-decoration: none;
       //color: #fff;
