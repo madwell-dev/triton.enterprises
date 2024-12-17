@@ -52,13 +52,9 @@
             "text_style": "body"
           }
         },
-        "description": {
+        "description_PtWdk9": {
           "type": "description",
           "settings": {}
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
         }
       },
       "block_order": [
@@ -69,6 +65,7 @@
         "quantity_selector",
         "buy_buttons",
         "text_FJXmYr",
+        "description_PtWdk9"
       ],
       "settings": {
         "enable_sticky_info": true,
