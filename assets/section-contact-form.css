@@ -30,7 +30,7 @@
     padding: 10px 8px;
   }
 
-  label {
+  .field__label {
     color: rgba(37, 35, 37, 0.50);
     top: 50%;
     transform: translateY(-50%);
