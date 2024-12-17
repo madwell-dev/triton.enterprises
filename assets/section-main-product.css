@@ -234,6 +234,10 @@ p.product__text {
 .product__info-container .product__description,
 .product__info-container .icon-with-text {
   margin: 8px 0;
+
+  p {
+    color: var(--black);
+  }
 }
 
 .product__text {
