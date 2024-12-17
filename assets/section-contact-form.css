@@ -27,6 +27,9 @@
 
   label {
     color: rgba(37, 35, 37, 0.50);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
   }
 }
 
