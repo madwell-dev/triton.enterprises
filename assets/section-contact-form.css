@@ -24,6 +24,10 @@
     height: 56px;
     padding: 10px 8px;
   }
+
+  label {
+    color: rgba(37, 35, 37, 0.50);
+  }
 }
 
 @media screen and (min-width: 750px) {
