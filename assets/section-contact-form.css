@@ -25,6 +25,11 @@
     padding: 10px 8px;
   }
 
+  textarea {
+    height: 231px;
+    padding: 10px 8px;
+  }
+
   label {
     color: rgba(37, 35, 37, 0.50);
     top: 50%;
