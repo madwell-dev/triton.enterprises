@@ -177,7 +177,8 @@ product-info {
   border: none;
 }
 
-.product-form__input .form__label {
+.product-form__input .form__label,
+p.product__text {
   padding-left: 0;
   font-size: 16.5px;
   font-weight: 700;
