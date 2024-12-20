@@ -46,17 +46,10 @@
     top: unset;
   }
 
-  /* .field__label {
-    color: rgba(37, 35, 37, 0.50);
-    top: 50%;
-    transform: translateY(-50%);
-    left: 8px!important;
+  .contact__button button {
+    font-family: var(--metallophile);
+    background-color: var(--black);
   }
-
-  .field__input:focus~.field__label {
-    transform: translateY(-25%);
-    top: unset;
-  } */
 }
 
 @media screen and (min-width: 750px) {
