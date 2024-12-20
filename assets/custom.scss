@@ -16,6 +16,10 @@
     font-family: var(--metallophile);
     padding: 8px 16px;
 
+    .list-menu {
+      gap: 16px;
+    }
+
     a {
       text-decoration: none;
       //color: #fff;
@@ -24,6 +28,10 @@
       &:hover {
         color: inherit;
         text-decoration: underline;
+      }
+
+      &.header__menu-item {
+        padding: 0px;
       }
     }
 

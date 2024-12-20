@@ -61,8 +61,9 @@
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
             placeholder="{{ 'templates.contact.form.name' | t }}"
+            required
           >
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+          <label class="field__label" for="ContactForm-name">Your Name*</label>
         </div>
         <div class="field field--with-error">
           <input
@@ -75,6 +76,7 @@
             autocapitalize="off"
             value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
             aria-required="true"
+            required
             {% if form.errors contains 'email' %}
               aria-invalid="true"
               aria-describedby="ContactForm-email-error"
@@ -82,9 +84,8 @@
             placeholder="{{ 'templates.contact.form.email' | t }}"
           >
           <label class="field__label" for="ContactForm-email">
-            {{- 'templates.contact.form.email' | t }}
-            <span aria-hidden="true">*</span></label
-          >
+            {{- 'templates.contact.form.email' | t }}*
+          </label>
           {%- if form.errors contains 'email' -%}
             <small class="contact__field-error" id="ContactForm-email-error">
               <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
@@ -99,6 +100,17 @@
       </div>
       <div class="field">
         <input
+          type="text"
+          id="ContactForm-subject"
+          class="field__input"
+          name="contact[subject]"
+          placeholder="Subject"
+          required
+        >
+        <label class="field__label" for="ContactForm-subject">Subject*</label>
+      </div>
+      <div class="field">
+        <input
           type="tel"
           id="ContactForm-phone"
           class="field__input"
@@ -107,8 +119,11 @@
           pattern="[0-9\-]*"
           value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
           placeholder="{{ 'templates.contact.form.phone' | t }}"
+          required
         >
-        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+        <label class="field__label" for="ContactForm-phone">
+          Phone Number*
+        </label>
       </div>
       <div class="field">
         <textarea
@@ -117,16 +132,17 @@
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
           placeholder="{{ 'templates.contact.form.comment' | t }}"
+          required
         >
           {{- form.body -}}
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">
-          {{- 'templates.contact.form.comment' | t -}}
+          Your Message*
         </label>
       </div>
       <div class="contact__button">
         <button type="submit" class="button">
-          {{ 'templates.contact.form.send' | t }}
+          SEND MESSAGE
         </button>
       </div>
     {%- endform -%}

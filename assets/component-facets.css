@@ -47,7 +47,8 @@
 
 .facet-filters__label {
   display: block;
-  color: rgba(var(--color-foreground), 0.85);
+  color: var(--black);
+  font-weight: 700;
   font-size: 1.4rem;
   margin: 0 2rem 0 0;
 }
@@ -175,9 +176,10 @@
 
 .facets__heading {
   display: block;
-  color: rgba(var(--color-foreground), 0.85);
+  color: var(--black);
   font-size: 1.4rem;
   margin: -1.5rem 2rem 0 0;
+  font-weight: 700;
 }
 
 .facets__reset {
