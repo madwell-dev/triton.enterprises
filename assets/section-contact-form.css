@@ -59,6 +59,8 @@
   button {
     font-family: var(--metallophile);
     background-color: var(--black);
+    font-size: 22px;
+    letter-spacing: 3%;
   }
 }
 
