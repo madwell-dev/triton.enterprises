@@ -45,11 +45,6 @@
     transform: translateY(-10%);
     top: unset;
   }
-
-  .contact__button button {
-    font-family: var(--metallophile);
-    background-color: var(--black);
-  }
 }
 
 @media screen and (min-width: 750px) {
@@ -60,6 +55,11 @@
 
 .contact__button {
   margin-top: 3rem;
+
+  button {
+    font-family: var(--metallophile);
+    background-color: var(--black);
+  }
 }
 
 @media screen and (min-width: 750px) {
