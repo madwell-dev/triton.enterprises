@@ -7,6 +7,16 @@
   text-transform: uppercase;
 }
 
+.main-page-title + div {
+  * {
+    color: var(--black);
+  }
+
+  a {
+    font-weight: 700;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .main-page-title {
     margin-bottom: 4rem;
